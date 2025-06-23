@@ -1,0 +1,192 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 80px;
+    gap: 300px;
+}
+
+.head-text button {
+    width: 146px;
+    height: 40px;
+    background-color: #FFFFFF;
+    border: #2C2830 solid 2px;
+    font-weight: 700;
+    font-size: 13px;
+}
+
+a {
+    text-decoration: none;
+    color: #837D88;
+    font-size: 13px;
+    font-weight: 700;
+    margin-left: 30px;
+    margin-right: 10px;
+
+}
+
+.huma {
+    background-color: #2D2641;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    height: 600px;
+}
+
+.huma-text {
+    width: 540px;
+    height: 305px;
+}
+
+.huma-text h1 {
+    font-size: 72px;
+    font-weight: 400;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+}
+
+.huma-text p {
+    font-size: 16px;
+    font-weight: 600;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+
+ .head-text  {
+    width: 146px;
+    height: 40px;
+    background: none;
+    border: #FFFFFF 2px solid;
+    font-size: 13px;
+    font-weight: 700;
+    color: #FFFFFF;
+}
+
+.huma-img {
+    position: relative;
+    top: 100px;
+}
+
+.card {
+    width: 350px;
+    height: 250px;
+    text-align: start;
+}
+
+.card h2 {
+    font-size: 28px;
+    font-weight: 400;
+}
+
+.card p {
+    font-size: 16px;
+    font-weight: 400;
+    color: #837D88;
+    text-align: start;
+}
+
+.cards {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+
+.ce {
+    font-size: 72px;
+    font-weight: 400;
+    color: #2C2830;
+    margin-top: 360px;
+    margin-left: 250px;
+}
+
+.find {
+    background-image: url(./Group\ 6\ Copy\ \(1\).png);
+    background-position-x: 700px;
+    background-color: #2D2641;
+    background-repeat: no-repeat;
+    width: 1110px;
+    height: 220px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #FFFFFF;
+    gap: 400px;
+    margin-left: 260px;
+    margin-top: 150px;
+}
+
+.find button{
+    width: 146px;
+    height: 40px;
+    background: none;
+    border: #FFFFFF 2px solid;
+    font-size: 12px;
+    font-weight: 700;
+    color: #FFFFFF;
+}
+
+footer{
+    height: 393px;
+    margin-top: 200px;
+}
+
+.text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 220px;
+    margin-top: 30px;
+}
+
+.orta {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.bir {
+    color: #837D88;
+    
+}
+.j{
+    display: none;
+}
+
+@media(max-width:1024px){
+    .cards{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .ce{
+        font-size: 30px;
+    }
+    .j{
+        display: block;
+    }
+    a{
+        display: none;
+
+    }
+    .head-text button{
+        display: none;
+    }
+.huma{
+    display: flex;
+    flex-direction: column-reverse;
+    height: 100%;
+    
+}
+}
